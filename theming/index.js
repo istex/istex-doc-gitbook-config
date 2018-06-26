@@ -44,7 +44,7 @@ function callback(){
 	document.getElementsByClassName('body-inner')[0].onscroll = headerTransform;
 
 	function headerTransform() {
-	    if (document.getElementsByClassName('body-inner')[0].scrollTop > 100) {
+	    if (document.getElementsByClassName('body-inner')[0].scrollTop > hauteur) {
 
 			document.getElementById("istex_web_header").style.height = 0 + "px";
 			book[0].parentNode.style.height = '100%';
