@@ -1,0 +1,108 @@
+{
+    "redirects": [
+            {
+                "from": "users/index.html",
+                "to": "index.html"
+            },
+            {
+                "from": "users/404.html",
+                "to": "index.html"
+            },
+            {
+                "from": "users/corpus/annexes/index.html",
+                "to": "tdm/annexes/index.html"
+            },
+            {
+                "from": "users/corpus/introduction/index.html",
+                "to": "tdm/index.html"
+            },
+            {
+                "from": "users/corpus/requetage/index.html",
+                "to": "tdm/requetage/index.html"
+            },
+            {
+                "from": "users/corpus/verification/index.html",
+                "to": "tdm/verification/index.html"
+            },
+            {
+                "from": "users/faq/aquoisertISTEX/index.html",
+                "to": "faq/aquoisertistex.html"
+            },
+            {
+                "from": "users/faq/ark/index.html",
+                "to": "faq/faq.html"
+            },
+            {
+                "from": "users/faq/corpusapi/index.html",
+                "to": "faq/corpusapi.html"
+            },
+            {
+                "from": "users/integration/index.html",
+                "to": "integration/index.html"
+            },
+            {
+                "from": "users/integration/discovery-tools/index.html",
+                "to": "integration/discovery-tools/index.html"
+            },
+            {
+                "from": "users/integration/ent-web/index.html",
+                "to": "integration/index.html"
+            },
+            {
+                "from": "users/integration/exemples/index.html",
+                "to": "integration/examples/index.html"
+            },
+            {
+                "from": "users/mkdocs/index.html",
+                "to": "index.html"
+            },
+            {
+                "from": "users/search.html",
+                "to": "index.html"
+            },
+            {
+                "from": "users/tdm/index.html",
+                "to": "tdm/index.html"
+            },
+            {
+                "from": "users/tdm/annexes/index.html",
+                "to": "tdm/annexes/index.html"
+            },  
+            {
+                "from": "users/tdm/extraction/index.html",
+                "to": "tdm/extraction/index.html"
+            },
+            {
+                "from": "users/tdm/introduction/index.html",
+                "to": "tdm/index.html"
+            },
+            {
+                "from": "users/tdm/requetage/index.html",
+                "to": "tdm/requetage/index.html"
+            },
+            {
+                "from": "users/tdm/verification/index.html",
+                "to": "tdm/verification/index.html"
+            },
+            {
+                "from": "users/usage/index.html",
+                "to": "doc/index.html"
+            },
+            {
+                "from": "users/usage/bib/index.html",
+                "to": "doc/bib/index.html"
+            },
+            {
+                "from": "users/usage/button/index.html",
+                "to": "doc/bouton-istex.html"
+            },
+            {
+                "from": "users/usage/google/index.html",
+                "to": "doc/google-scholar.html"
+            },
+            {
+                "from": "users/usage/googlescholar/index.html",
+                "to": "doc/google-scholar.html"
+            }
+        ]
+}

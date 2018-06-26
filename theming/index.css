@@ -1,0 +1,104 @@
+header {
+    transition: height 1s;
+}
+
+body {
+	overflow: hidden;
+}
+
+.book-body{
+	background: url('../../.gitbook/assets/bg_istex_light_desktop.jpg');
+}
+
+.book-summary ul.summary li.active > a {
+	color: #458CA5 !important;
+	font-weight: bold;
+}
+
+.chapter.active {
+    border-left: 5px solid rgba(69, 140, 165, 0.5);
+    background: url("../../.gitbook/assets/bg_istex_light_desktop.jpg");
+}
+
+.book-summary {
+    border-right: 5px solid rgba(69, 140, 165, 0.2);
+    font-family: Open Sans;
+}
+
+p {
+	font-family: Open Sans;
+	font-size: 18px !important;
+	color: #303030 !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: Montserrat regular;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 35px !important;
+}
+
+h2 {	
+	font-size: 30px !important;	
+}
+
+h3 {
+	font-size: 25px !important;	
+}
+
+.page-wrapper a {
+	color: #458CA5 !important;
+        text-decoration: none !important;
+}
+
+.page-wrapper a:hover {
+	color: #458CA5 !important;
+        text-decoration: underline !important;
+}
+
+.page-wrapper li {
+	font-family: Open Sans;
+	font-size: 18px !important;
+	color: #303030 !important;
+}
+
+#anchor-navigation-ex-navbar li {
+	color: #333 !important;
+}
+
+#anchorNavigationExGoTop {
+	color: #333 !important;	
+}
+
+@media only screen and (max-width: 600px){
+	p {
+	font-family: Open Sans;
+	font-size: 14px !important;
+	color: #303030 !important;
+	}
+	
+	h1,h2,h3,h4,h5,h6 {
+		font-family: Montserrat regular;
+	}
+
+	h1 {
+		text-transform: uppercase !important;
+		font-size: 24px !important;
+	}
+
+	h2 {	
+		font-size: 22px !important;	
+	}
+
+	h3 {
+		font-size: 20px !important;	
+	}
+	
+	.page-wrapper li {
+		font-family: Open Sans;
+		font-size: 14px !important;
+		color: #303030 !important;
+	}
+}

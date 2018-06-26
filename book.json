@@ -1,0 +1,30 @@
+{
+	"plugins": ["collapsible-menu","ancre-navigation", "header-istex", "bulk-redirect", "url-embed", "add-js-css", "hints-istex", "piwik", "highlight-code"],
+	"pluginsConfig": {
+		"layout": {
+			"headerPath": "layouts/header.html"
+		},
+		"hints": {
+		    "info": "fa fa-info-circle",
+		    "success": "fa fa-check-circle",
+		    "danger": "fa fa-exclamation-triangle",
+		    "warning": "fa fa-exclamation-circle"
+		},
+		"piwik": {
+        	"URL": "piwik2.inist.fr/",
+        	"siteId": 49
+        	},
+		"add-js-css": {
+	    		"js": [
+	      			"./theming/index.js"
+	    		],
+	    		"css": [
+	      			"./theming/index.css"
+	    		]
+	  	},
+		"bulk-redirect": {
+        		"basepath": "/",
+        		"redirectsFile": "redirects.json"
+    		}
+	}
+}
