@@ -11,7 +11,7 @@ body {
 }
 
 .book-summary ul.summary li.active > a {
-	color: #458CA5 !important;
+	color: #458CA5;
 	font-weight: bold;
 }
 
@@ -27,78 +27,78 @@ body {
 
 p {
 	font-family: Open Sans;
-	font-size: 18px !important;
-	color: #303030 !important;
+	font-size: 18px;
+	color: #303030;
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: Montserrat regular;
+	font-family: Montserrat;
 }
 
 h1 {
 	text-transform: uppercase;
-	font-size: 35px !important;
+	font-size: 35px;
 }
 
 h2 {	
-	font-size: 30px !important;	
+	font-size: 30px;	
 }
 
 h3 {
-	font-size: 25px !important;	
+	font-size: 25px;	
 }
 
 .page-wrapper a {
-	color: #458CA5 !important;
-        text-decoration: none !important;
+	color: #458CA5;
+        text-decoration: none;
 }
 
 .page-wrapper a:hover {
-	color: #458CA5 !important;
-        text-decoration: underline !important;
+	color: #458CA5;
+        text-decoration: underline;
 }
 
 .page-wrapper li {
 	font-family: Open Sans;
-	font-size: 18px !important;
-	color: #303030 !important;
+	font-size: 18px;
+	color: #303030 ;
 }
 
 #anchor-navigation-ex-navbar li {
-	color: #333 !important;
+	color: #333 ;
 }
 
 #anchorNavigationExGoTop {
-	color: #333 !important;	
+	color: #333 ;	
 }
 
 @media only screen and (max-width: 600px){
 	p {
 	font-family: Open Sans;
-	font-size: 14px !important;
-	color: #303030 !important;
+	font-size: 14px ;
+	color: #303030 ;
 	}
 	
 	h1,h2,h3,h4,h5,h6 {
-		font-family: Montserrat regular;
+		font-family: Montserrat;
 	}
 
 	h1 {
-		text-transform: uppercase !important;
-		font-size: 24px !important;
+		text-transform: uppercase;
+		font-size: 24px;
 	}
 
 	h2 {	
-		font-size: 22px !important;	
+		font-size: 22px;	
 	}
 
 	h3 {
-		font-size: 20px !important;	
+		font-size: 20px;	
 	}
 	
 	.page-wrapper li {
 		font-family: Open Sans;
-		font-size: 14px !important;
-		color: #303030 !important;
+		font-size: 14px;
+		color: #303030;
 	}
 }
