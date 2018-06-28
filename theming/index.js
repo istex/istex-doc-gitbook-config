@@ -72,13 +72,21 @@ function callback(e){
 	    if (document.getElementsByClassName('body-inner')[0].scrollTop > 0) {
 			try {
 				document.getElementById("istex_web_header").style.height = 0 + "px";
-				document.getElementsByClassName("book without-animation with-summary font-size-2 font-family-1")[0].style.height = '100%';
+			} catch (e) {
+				console.log(e);
+			}
+			try {
+				document.getElementsByClassName("book without-animation with-summary font-size-2 font-family-1")[0].style.height = '100%';	
 			} catch (e) {
 				console.log(e);
 			}
 		} else {
 			try {
 				document.getElementsByClassName("book without-animation with-summary font-size-2 font-family-1")[0].style.height = 'calc(100% - ' + height + ')';
+			} catch(e) {
+				console.log(e);
+			}
+			try {
 				document.getElementById("istex_web_header").style.height = height;
 			} catch (e) {
 				console.log(e);
