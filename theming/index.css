@@ -6,6 +6,10 @@ body {
 	overflow: hidden;
 }
 
+.book {
+    transition: height 1s;
+}
+
 .book-body{
 	background: url('../../.gitbook/assets/bg_istex_light_desktop.jpg');
 }
@@ -40,12 +44,12 @@ h1 {
 	font-size: 35px;
 }
 
-h2 {	
-	font-size: 30px;	
+h2 {
+	font-size: 30px;
 }
 
 h3 {
-	font-size: 25px;	
+	font-size: 25px;
 }
 
 .page-wrapper a {
@@ -69,7 +73,7 @@ h3 {
 }
 
 #anchorNavigationExGoTop {
-	color: #333 ;	
+	color: #333 ;
 }
 
 @media only screen and (max-width: 600px){
@@ -78,7 +82,7 @@ h3 {
 	font-size: 14px ;
 	color: #303030 ;
 	}
-	
+
 	h1,h2,h3,h4,h5,h6 {
 		font-family: Montserrat;
 	}
@@ -88,14 +92,14 @@ h3 {
 		font-size: 24px;
 	}
 
-	h2 {	
-		font-size: 22px;	
+	h2 {
+		font-size: 22px;
 	}
 
 	h3 {
-		font-size: 20px;	
+		font-size: 20px;
 	}
-	
+
 	.page-wrapper li {
 		font-family: Open Sans;
 		font-size: 14px;
