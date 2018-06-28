@@ -11,7 +11,7 @@ body {
 }
 
 .book-body{
-	background: url('../../.gitbook/assets/bg_istex_light_desktop.jpg');
+	background: url('BG_ISTEX_LIGHT_DESKTOP.jpg');
 }
 
 .book-summary ul.summary li.active > a {
@@ -21,7 +21,7 @@ body {
 
 .chapter.active {
     border-left: 5px solid rgba(69, 140, 165, 0.5);
-    background: url("../../.gitbook/assets/bg_istex_light_desktop.jpg");
+    background: url("BG_ISTEX_LIGHT_DESKTOP.jpg");
 }
 
 .book-summary {
