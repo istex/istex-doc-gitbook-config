@@ -57,7 +57,12 @@ function callback(e){
 	    }
 	}
 
-	document.getElementsByClassName("book without-animation with-summary font-size-2 font-family-1")[0].style.height = "calc(100% - " + height +"px)";
+	try {
+		document.getElementsByClassName("book without-animation with-summary font-size-2 font-family-1")[0].style.height = "calc(100% - " + height +"px)";
+	} catch(e){
+		console.log(e);
+	}
+
 	//document.getElementById("istex_web_header")[0].style.height = height +"px";
 	//var book = document.getElementsByClassName('book-summary');
 	//book[0].parentNode.style.height = 'calc(100% - ' + hauteur + 'px)';
@@ -76,7 +81,7 @@ function callback(e){
 				console.log(e);
 			}
 			try {
-				document.getElementsByClassName("book without-animation with-summary font-size-2 font-family-1")[0].style.height = '100%';	
+				document.getElementsByClassName("book without-animation with-summary font-size-2 font-family-1")[0].style.height = '100%';
 			} catch (e) {
 				console.log(e);
 			}
