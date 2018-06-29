@@ -1,5 +1,5 @@
 header {
-    transition: height 1s;
+        transition: height 1s;
 }
 
 body {
@@ -7,7 +7,7 @@ body {
 }
 
 .book {
-    transition: height 1s;
+        transition: height 1s;
 }
 
 .book-body{
@@ -19,14 +19,18 @@ body {
 	font-weight: bold;
 }
 
+.page-inner img {
+	box-shadow: 1px 1px 12px #555;
+}
+
 .chapter.active {
-    border-left: 5px solid rgba(69, 140, 165, 0.5);
-    background: url('../../.gitbook/assets/bg_istex_light_desktop.jpg');
+        border-left: 5px solid rgba(69, 140, 165, 0.5);
+        background: url('../../.gitbook/assets/bg_istex_light_desktop.jpg');
 }
 
 .book-summary {
-    border-right: 5px solid rgba(69, 140, 165, 0.2);
-    font-family: Open Sans;
+        border-right: 5px solid rgba(69, 140, 165, 0.2);
+        font-family: Open Sans;
 }
 
 .page-wrapper p {
