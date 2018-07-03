@@ -30,11 +30,11 @@
             },
             {
                 "from": "users/faq/ark/index.html",
-                "to": "faq/faq.html"
+                "to": "faq/ark.html"
             },
             {
                 "from": "users/faq/corpusapi/index.html",
-                "to": "faq/corpusapi.html"
+                "to": "faq/loaded-corpus.html"
             },
             {
                 "from": "users/integration/index.html",
