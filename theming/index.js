@@ -31,7 +31,7 @@ function callback(e){
 	// change the search placeholder
 
 	// change href of published with GitBook
-	document.getElementsByClassName('gitbook-link')[0].href = "build.html";
+	document.getElementsByClassName('gitbook-link')[0].href = "https://doc.istex.fr/build.html";
 	
 	header = document.createElement('script');
 	header.setAttribute('id', 'iwh_script');
