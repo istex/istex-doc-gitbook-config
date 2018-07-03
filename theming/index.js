@@ -30,6 +30,9 @@ function callback(e){
 	urlMem = window.location.href;
 	// change the search placeholder
 
+	// change href of published with GitBook
+	document.getElementsByClassName('gitbook-link')[0].href = "build.html";
+	
 	header = document.createElement('script');
 	header.setAttribute('id', 'iwh_script');
 	header.setAttribute('data-menu', 'hide');
