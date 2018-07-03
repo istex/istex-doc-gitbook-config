@@ -80,6 +80,10 @@ h3 {
 	color: #333 ;
 }
 
+.gitbook-link {
+    font-size: 12px !important;
+}
+
 @media only screen and (max-width: 600px){
 	.page-wrapper p {
 	font-family: Open Sans;
@@ -108,5 +112,9 @@ h3 {
 		font-family: Open Sans;
 		font-size: 14px;
 		color: #303030;
+	}
+	
+	.gitbook-link {
+	    font-size: 10px !important;
 	}
 }
