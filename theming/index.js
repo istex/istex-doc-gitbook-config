@@ -51,12 +51,11 @@ function callback(e){
 
 	// Change url
 	var regex = new RegExp('^([^?#]*\/)([^?#.\/]+)$');
-	var regexDoc = new RegExp('^(https:\/\/doc\.istex\.fr)');
 
 	var ArrayOfLinks = document.getElementsByClassName('page-wrapper')[0].getElementsByTagName('a');
 
 	for(var i=0; i<ArrayOfLinks.length; i++){
-	    if (ArrayOfLinks[i].href.match(regex) && !ArrayOfLinks[i].href.match(regexDoc)){
+	    if (ArrayOfLinks[i].href.match(regex)){
 		    ArrayOfLinks[i].href += '/';
 	    }
 	}
