@@ -1,5 +1,5 @@
 {
-	"plugins": ["collapsible-menu","ancre-navigation", "downloadpdf", "bulk-redirect", "url-embed", "add-js-css", "hints-istex", "piwik", "highlight-code"],
+	"plugins": ["collapsible-menu","ancre-navigation", "bulk-redirect", "url-embed", "add-js-css", "hints-istex", "piwik", "highlight-code"],
 	"pluginsConfig": {
 		"layout": {
 			"headerPath": "layouts/header.html"
@@ -25,11 +25,6 @@
 		"bulk-redirect": {
         		"basepath": "/",
         		"redirectsFile": "redirects.json"
-    		},
-		"downloadpdf": {
-		        "base": "https://github.com/zhaoda/webpack-handbook/edit/master/content",
-		        "label": "Télécharger en PDF",
-		        "multilingual": false
-		}
+    		}
 	}
 }
