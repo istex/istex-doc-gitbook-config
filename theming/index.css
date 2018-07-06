@@ -85,7 +85,7 @@ h3 {
 }
 
 #anchor-navigation-ex-navbar {
-	top: 90px;
+	top: 90px !important;
 }
 
 @media only screen and (max-width: 600px){
