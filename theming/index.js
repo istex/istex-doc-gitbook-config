@@ -29,7 +29,20 @@ function checkUrl(){
 function callback(e){
 	urlMem = window.location.href;
 	
-	// change the search placeholder
+	// set the twitter url
+	document.getElementsByClassName('btn pull-right js-toolbar-action').href="https://twitter.com/istex_platform";
+	
+	// Change the position of the navigator when the share menu is open
+	var share = document.getElementsByClassName("btn toggle-dropdown")[0];
+	var nbClick = 0;
+	share.onclick = function(){
+		nbClick++;
+		if (nbClick % 2){
+			document.getElementById("anchor-navigation-ex-navbar").style.right = "200px";
+		} else {
+			document.getElementById("anchor-navigation-ex-navbar").style.right = "50px";
+		}
+	}
 
 	// change href of published with GitBook
 	document.getElementsByClassName('gitbook-link')[0].href = "https://doc.istex.fr/build.html";
@@ -48,6 +61,7 @@ function callback(e){
 		console.log(e);
 	}
 
+	// change the search placeholder
 	document.getElementById('book-search-input').children[0].placeholder = "Taper pour rechercher";
 
 	// Change url
