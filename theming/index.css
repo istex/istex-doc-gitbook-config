@@ -84,6 +84,10 @@ h3 {
     font-size: 12px !important;
 }
 
+#anchor-navigation-ex-navbar {
+	top: 90px;
+}
+
 @media only screen and (max-width: 600px){
 	.page-wrapper p {
 	font-family: Open Sans;
