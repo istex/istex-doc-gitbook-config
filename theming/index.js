@@ -30,7 +30,7 @@ function callback(e){
 	urlMem = window.location.href;
 	
 	// set the twitter url
-	document.getElementsByClassName('btn pull-right js-toolbar-action')[0].href="https://twitter.com/istex_platform";
+	document.getElementsByClassName('btn pull-right js-toolbar-action')[1].href="https://twitter.com/istex_platform";
 	document.getElementsByClassName('btn pull-right js-toolbar-action')[0].style.display = "none";
 	
 	// Change the position of the navigator when the share menu is open
