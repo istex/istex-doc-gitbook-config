@@ -88,6 +88,13 @@ h3 {
 	top: 90px !important;
 }
 
+/* We hide the theme changment
+   It's not relevant
+*/
+.dropdown.pull-left.font-settings.js-toolbar-action {
+    display: none;
+}
+
 @media only screen and (max-width: 600px){
 	.page-wrapper p {
 	font-family: Open Sans;
