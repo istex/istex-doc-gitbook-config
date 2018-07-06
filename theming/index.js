@@ -28,13 +28,6 @@ function checkUrl(){
 
 function callback(e){
 	urlMem = window.location.href;
-		
-	/* We hide the menu to change the theme,
-	   it's not relevant
-	*/
-	var enfant = document.getElementsByClassName('dropdown pull-left font-settings js-toolbar-action');
-	var parent = document.getElementsByClassName('book-header');
-	parent.removeChild(enfant);
 	
 	// change the search placeholder
 
