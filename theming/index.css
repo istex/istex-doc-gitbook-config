@@ -81,7 +81,9 @@ h3 {
 }
 
 .gitbook-link {
-    font-size: 12px !important;
+    	font-size: 12px !important;
+    	float : right;
+	padding-top: 0;    
 }
 
 #anchor-navigation-ex-navbar {
@@ -92,7 +94,7 @@ h3 {
    It's not relevant
 */
 .dropdown.pull-left.font-settings.js-toolbar-action {
-    display: none;
+    	display: none;
 }
 
 @media only screen and (max-width: 600px){
