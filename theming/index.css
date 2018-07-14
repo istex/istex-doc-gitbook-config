@@ -81,9 +81,9 @@ h3 {
 }
 
 .gitbook-link {
-    	font-size: 12px !important;
-    	float : right;
-	padding-top: 0;    
+	font-size: 12px !important;
+	float : right;
+	padding-top: 0 !important;    
 	font-style: italic;
 }
 
