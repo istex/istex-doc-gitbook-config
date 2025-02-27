@@ -1,5 +1,5 @@
 {
-	"plugins": ["collapsible-menu","ancre-navigation", "bulk-redirect", "url-embed", "add-js-css", "hints-istex", "piwik", "highlight-code"],
+	"plugins": ["collapsible-menu", "bulk-redirect", "url-embed", "add-js-css", "hints-istex", "piwik", "highlight-code"],
 	"pluginsConfig": {
 		"layout": {
 			"headerPath": "layouts/header.html"
